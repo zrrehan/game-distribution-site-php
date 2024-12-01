@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter Tight", sans-serif;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.header {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search-container {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    height:70%;
+    width: 50vw;
+    background-color: rgb(65, 64, 64);
+    border: none;
+    font-size: 30px;
+    color: rgb(255, 247, 233);
+    padding: 0px 10px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 0px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+
+.search-button {
+    height: 70%;
+    background-color: rgb(65, 64, 64);
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    color: rgb(255, 247, 233);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
